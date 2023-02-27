@@ -1,0 +1,45 @@
+.approval {
+    background-color: #21BA72;
+    &__container {
+        position: relative;
+    }
+    &__image {
+        position: absolute;
+        right: 46px;
+        bottom: 0;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__content {
+        padding: 80px 0;
+        padding-left: 120px;
+    }
+    &__title {
+        width: 770px;
+        color: #fff;
+        text-align: left;
+        margin-bottom: 28px;
+    }
+    .title {
+        &--color {
+            display: block;
+            text-align: left;
+            color: #F9EB06;
+        }
+    }
+    &__descr {
+        width: 640px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        color: #fff;
+        margin-bottom: 24px;
+    }
+    &__button {
+        background: #26272E;
+        color: #fff;
+        width: 283px;
+        height: 60px;
+    }
+}
